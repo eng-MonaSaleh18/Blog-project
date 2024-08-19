@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+nav .img{
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+.li_a{
+    text-decoration: none;
+    color: black;
+}
+.form{
+    margin: auto;
+    border: 3px solid black;
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px 0px;
+}
+.form input{
+    margin-bottom: 20px;
+}
+
+.form .center{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.margin{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.cards_category{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 0 50px 50px;
+
+}
+
+
+.one_card{
+    width: 20%;
+}
+.one_card .cat_img{
+    width: 100%;
+    height: 50%;
+}
+.cat_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.one_card h3 {
+    margin-left: 10px;
+}
+.flex{
+    width: 90%;
+    display: flex;
+    padding-left: 10px;
+    gap: 5px;
+}
+.form_category{
+    width: 40%;
+    margin: 20px 50px;
+    padding: 25px;
+    border: 4px solid black;
+    border-top-left-radius: 22px ;
+    border-bottom-right-radius: 22px ;
+}
+.border{
+    width: 300px;
+    text-align: center;
+    border: 10px solid black;
+    border-top-left-radius: 22px ;
+    border-bottom-right-radius: 22px ;
+}
+.input_margin{
+    margin-top: 10px;
+}
+.form_category_update{
+    width: 40%;
+    margin: 20px 50px;
+    padding: 25px;
+    border: 4px solid rgb(144, 202, 144);
+    border-top-left-radius: 22px ;
+    border-bottom-right-radius: 22px ;
+}
+.margin_show{
+    margin:10px 50px
+}
+.img_show{
+    width: 30%;
+    height: 40%;
+    margin: 20px 50px;
+}
+.img_show img{
+    width: 100%;
+    height: 100%;
+}
+.size{
+    width: 60%;
+}
+.create_tag{
+    width: 40%;
+    padding: 50px 50px;
+    border: 3px solid rgb(241, 206, 104);
+    border-top-left-radius: 22px ;
+    border-bottom-right-radius: 22px ;
+}
+.user{
+    margin-left:25px ;
+}
+.img_user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post{
+    margin-left: 50px;
+    margin-top:50px ;
+}
+.info_post{
+    margin: 15px 0 25px 25px;
+    border: 5px solid rgb(253, 253, 253 , 0.9);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 60%;
+    padding: 50px 50px;
+}
+.img_description{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    
+}
+.description{
+    width: 55%;
+}
+.description p{
+    width: 100%;
+}
+.img_description .img_post{
+    width: 40%;
+}
+.img_description .img_post img{
+    width: 100%;
+}
+.icon_send{
+    width: 30px;
+    height: 30px;
+    background-color:darkgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+.form_comment{
+    display: flex;
+}
+.form_comment_update{
+    margin-left: 20px;
+    
+}
+.input_comment{
+    margin-top: 10px;
+    
+}
+.post_card{
+    width: 90%;
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin: 20px 0 50px 50px;
+
+}
+.post_card .card_p{
+    width: 20%;
+    height: 22vw; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(112, 177, 216);
+}
+.post_card .card_p .up {
+    width: 100%;
+    height: 55%;
+    margin-bottom: 15px;
+}
+.post_card .card_p .down{
+    width: 100%;
+    /* height: 45%; */
+}
+.post_card .card_p .up img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.check_select{
+    width: 40%;
+    display: flex;
+    gap: 25px;
+    margin: 10px 0 10px 0;
+}
+.img_post_update{
+    width: 25%;
+    margin: 10px 0;
+    display: block;
+}
+.img_user_comment{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.comment_content{
+    width: 50%;
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+.comment_nameuser_content{
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 5px 0 0 10px;
+}
+.action{
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.action b{
+    width: 100%;
+}
+.user_checkbox{
+    font-size: 20px;
+}
